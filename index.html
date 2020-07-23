@@ -5,6 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+.then((response)=>{
+console.log(data);
+devices = response.devices;
+let obj = new Object
+devices.map(el=> Array.isArray (obj[el.placeRu])?obj[el.placeRu].push(el):obj[el.placeRu]=[el]
+
+);
+console.log(obj);
+
+
+
+
+});
 
     <script src="app.js"></script>
 </body>
